@@ -1,4 +1,4 @@
-const jwt = require("jsonwebtoken");
+const jwt = require("jsonwebtoken")
 const { APP_KEY } = require("../configs/appConst");
 
 module.exports = (req, res, next) => {

@@ -8,7 +8,7 @@ const musicController = require("../controllers/musicController");
  * Artist
  */
 // ALL Artist list
-router.get("/artist", auth, musicController.topArtist);
+router.get("/artist", auth, musicController.topArtist)
 //ALL albums of Artist
 router.get("/artist/:id", auth, musicController.getAlbumsByArtis);
 

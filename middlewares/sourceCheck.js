@@ -4,4 +4,4 @@ module.exports = (req, res, next) => {
     req.headers["authorization"] = `Bearer ${authorization}`;
   }
   next();
-};
+}

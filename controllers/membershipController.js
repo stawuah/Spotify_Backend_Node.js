@@ -1,5 +1,5 @@
 const Plan = require("../models/plan");
-const User = require("../models/user");
+const User = require("../models/user")
 
 exports.viewPlans = (req, res, next) => {
   Plan.find()

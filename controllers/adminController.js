@@ -1,4 +1,4 @@
-const Plan = require("../models/plan");
+const Plan = require("../models/plan")
 const Artist = require("../models/Artist");
 const Album = require("../models/Album");
 const Track = require("../models/Track");

@@ -19,6 +19,7 @@
   "author": "codergogoi@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "all": "^0.0.0",
     "bcryptjs": "^2.4.3",
     "chai": "^4.2.0",
     "cookie-parser": "^1.4.5",

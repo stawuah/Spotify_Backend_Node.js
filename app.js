@@ -27,7 +27,7 @@ app.use("/s3_artworks", express.static(path.join(__dirname, "s3_artworks")));
 
 app.use("/admin", adminRoutes);
 app.use("/user", userRoutes);
-app.use("/music", sourceAuth, musicRoutes);
+app.use("/music", sourceAuth, musicRoutes)
 
 app.use((error, req, res, next) => {
   console.log(error);

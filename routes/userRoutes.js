@@ -7,7 +7,7 @@ const auth = require("../middlewares/authCheck");
 /**
  * Middleware
  */
-const User = require("../models/user");
+const User = require("../models/user")
 
 /**
  * User Access
